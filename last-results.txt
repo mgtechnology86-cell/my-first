@@ -1,0 +1,30 @@
+PASS Welcome/login page renders (no Supabase config)
+PASS Configuration warning shown when credentials are missing
+PASS Empty-store message shown
+PASS Header, search bar, nav and footer render
+PASS Nav button works without config: Contact
+PASS Nav button works without config: Track Order
+PASS Nav button works without config: Browse Products
+PASS Nav button works without config: My Orders
+PASS Nav button works without config: Favourites
+PASS Nav button works without config: Cart
+PASS No JavaScript errors without config
+PASS Clear notice when Supabase library fails to load (no blank page)
+PASS Empty database shows friendly message
+PASS Failed connection shows friendly error with Retry button
+PASS Retry recovers once the connection is back
+PASS Product card renders with name, price, Add to Cart and Buy Now
+PASS Missing product image falls back to placeholder
+PASS Search navigates to results
+PASS Add to Cart updates the cart badge
+PASS Guest favourite saved on device
+PASS Cart quantity increase and subtotal
+PASS Cart quantity decrease
+PASS Checkout validates required fields
+PASS Place Order sends only product IDs + quantities (no prices) to the server
+PASS Order confirmation page shows order number
+PASS Cart emptied after successful order
+PASS No JavaScript errors in shopping flow
+PASS Admin dashboard shows access-restricted page to non-admin visitors (UI only; real protection is RLS)
+PASS Mobile (360px) home: no horizontal overflow
+PASS Mobile (360px) checkout: no horizontal overflow

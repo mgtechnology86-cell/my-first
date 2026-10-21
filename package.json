@@ -1,0 +1,14 @@
+{
+  "name": "mgm-market",
+  "version": "1.0.0",
+  "description": "MGM (MG MARKET) – online marketplace for Ghana. Static site + Supabase.",
+  "private": true,
+  "scripts": {
+    "postinstall": "node scripts/copy-vendor.js",
+    "start": "npx --yes serve . -l 3000",
+    "check": "node --check assets/js/app.js && node --check assets/js/boot.js && node --check assets/js/config.js",
+    "test": "node tests/run-tests.js"
+  },
+  "dependencies": { "@supabase/supabase-js": "2.45.4" },
+  "devDependencies": { "playwright": "^1.56.0" }
+}
